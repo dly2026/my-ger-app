@@ -1,1 +1,1 @@
-# my-ger-app
+personal-app
