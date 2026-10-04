@@ -1,3 +1,3 @@
-FROM ghcr.io/m-pro-node/xray-serv:latest
+FROM teddysun/xray:latest
 EXPOSE 10000
-CMD ["/start.sh"]
+CMD ["xray", "-c", "/etc/xray/config.json"]
