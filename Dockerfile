@@ -1,3 +1,7 @@
 FROM teddysun/xray:latest
-EXPOSE 10000
+
+COPY config.json /etc/xray/config.json
+
+EXPOSE 443
+
 CMD ["xray", "-c", "/etc/xray/config.json"]
